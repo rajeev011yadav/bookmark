@@ -1,0 +1,22 @@
+{
+  "name": "bookmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url /"
+  },
+  "author": "Rajeev",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "data.maybe": "^1.2.3",
+    "jquery": "^3.5.0",
+    "jquey": "0.0.1-security",
+    "ramda": "^0.27.0",
+    "valid-url": "^1.0.9"
+  }
+}
